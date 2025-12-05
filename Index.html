@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>StudyStark Flow</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Follow the Steps</h1>
+
+    <section class="steps">
+      <div class="step">
+        <h2>Step 1</h2>
+        <p>Open <strong>StudyStark</strong> and click <em>Server 1 → Click Here to Generate Key.</em></p>
+        <a class="btn" id="open-study" href="#" target="_blank" rel="noopener">Open StudyStark</a>
+      </div>
+
+      <div class="step">
+        <h2>Step 2</h2>
+        <p>Wait for the timer to finish.</p>
+        <button class="btn" id="start-timer">Start Timer</button>
+      </div>
+
+      <div class="timer" id="timer-row" aria-live="polite" style="display:none;">
+        <span class="hourglass">⏳</span>
+        <span>Waiting <span id="seconds">60</span>s before redirect...</span>
+      </div>
+    </section>
+
+    <footer class="footer">Made with ❤️ by Soullessaura 
+    Owner~ Prithavi Raj</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
